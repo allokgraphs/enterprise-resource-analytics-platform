@@ -2,7 +2,7 @@
 
 
 🚀 Project Overview
-Data automation and visualization platform that transforms Excel-based workflows into modern web analytics solutions. Reduces manual processing effort by 67% through automated SharePoint integration and interactive dashboards.
+A data automation and visualization platform that transforms Excel-based workflows into modern web analytics solutions. Reduces manual processing effort by 67% through automated SharePoint integration and interactive dashboards.
 
 💼 Problem Solved
 
@@ -23,18 +23,21 @@ Frontend: HTML5, CSS3, JavaScript, React
 Integration: SharePoint APIs, JSON
 
 📈 Impact Metrics
-MetricImprovementProcessing Time67% reductionData AccuracyAutomated validationUser ExperienceInteractive dashboards
+
+Metric Improvement Processing Time 67% reduction Data Accuracy Automated validation User Experience Interactive dashboards
 
 📊 Test Data
 
 The platform has been tested and validated using sample data:
 
 Test File: Test_data.xlsx
+
 Contains enterprise resource data for demonstration and testing purposes
 Validates automated processing capabilities and visualization accuracy
 Used for performance benchmarking and feature validation
 
 🛠️ Quick Start
+
 bash# Clone repository
 git clone https://github.com/allokgraphs/enterprise-resource-analytics-platform.git
 
@@ -46,13 +49,15 @@ python pms_visualization.py Test_data.xlsx
 
 # Or run with your own data
 python pms_visualization.py path/to/your_excel_file.xlsx
+
 💡 Usage
+
 pythonfrom pms_visualization import generate_pms_visualization
 
 # Generate from test data
 html_output = generate_pms_visualization(file_path="Test_data.xlsx")
 
-# Generate from custom Excel file
+# Generate from a custom Excel file
 html_output = generate_pms_visualization(file_path="data.xlsx")
 
 # Save dashboard
@@ -60,12 +65,14 @@ with open("dashboard.html", "w") as f:
     f.write(html_output)
     
 🚀 Future Enhancements
+
 Real-time SharePoint sync
 Advanced analytics & predictions
 Mobile application
 RESTful API development
 
 🤝 Contributing
+
 Fork the repository
 Create feature branch (git checkout -b feature/NewFeature)
 Commit changes (git commit -m 'Add NewFeature')
@@ -73,7 +80,9 @@ Push to branch (git push origin feature/NewFeature)
 Open Pull Request
 
 📞 Contact
+
 Alok Raj - Data Analyst & Python Developer
+
 📧 Email: alokraj090102@gmail.com
 💼 LinkedIn: linkedin.com/in/allokgraphs
 🐙 GitHub: @allokgraphs
