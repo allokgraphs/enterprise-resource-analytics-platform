@@ -5,16 +5,19 @@
 Data automation and visualization platform that transforms Excel-based workflows into modern web analytics solutions. Reduces manual processing effort by 67% through automated SharePoint integration and interactive dashboards.
 
 💼 Problem Solved
+
 Manual Excel file searches → Automated data extraction
 Time-intensive workflows → 67% efficiency improvement
 Static reports → Interactive web dashboards
 
 ✨ Key Features
+
 🔄 Automated Data Processing - SharePoint API integration, real-time synchronization, automated Excel processing
 📊 Interactive Visualization - Hierarchical tree structure, collapsible navigation, responsive design
 🎯 Smart Analytics - Availability tracking, sorted displays, real-time dashboard updates
 
 💻 Tech Stack
+
 Backend: Python, Pandas, NumPy, openpyxl
 Frontend: HTML5, CSS3, JavaScript, React
 Integration: SharePoint APIs, JSON
@@ -23,7 +26,9 @@ Integration: SharePoint APIs, JSON
 MetricImprovementProcessing Time67% reductionData AccuracyAutomated validationUser ExperienceInteractive dashboards
 
 📊 Test Data
+
 The platform has been tested and validated using sample data:
+
 Test File: Test_data.xlsx
 Contains enterprise resource data for demonstration and testing purposes
 Validates automated processing capabilities and visualization accuracy
