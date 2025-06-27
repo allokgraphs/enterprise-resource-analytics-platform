@@ -3,7 +3,7 @@ from pms_visualization import generate_pms_visualization
 def main():
     try:
         # Replace with your actual file path
-        excel_file = r"C:\Users\2374899\OneDrive - Cognizant\Desktop\Sanofi\Allocation_snf\PMS_Dash_June.xlsx"
+        excel_file = "Test_data.xlsx" #this is the test file 
         
         # Generate the visualization
         html_content = generate_pms_visualization(file_path=excel_file)
