@@ -50,6 +50,8 @@ python pms_visualization.py Test_data.xlsx
 # Or run with your own data
 python pms_visualization.py path/to/your_excel_file.xlsx
 
+#Or run the run_dashboard.py file
+
 💡 Usage
 
 pythonfrom pms_visualization import generate_pms_visualization
